@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>97d549c4-4711-444c-9d21-fdda1d76202f</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Grupo6.Logistcs.Conta.SharedClass</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Arquitetura\ActionCore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Arquitetura\ConexaoSegundario.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Arquitetura\PluginConnection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Arquitetura\RequestAPI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Arquitetura\PluginCore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\ExtensionsRequestToken.cs" />
+  </ItemGroup>
+</Project>

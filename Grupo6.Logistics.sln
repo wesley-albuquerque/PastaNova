@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grupo6.Logistics.Conta", "Grupo6.Logistics\Grupo6.Logistics.Conta.csproj", "{584E61CF-F09B-452A-93FE-BA3A0D72C8B6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Grupo6.Logistcs.SharedClass", "Grupo6.Logistcs.Conta.SharedClass\Grupo6.Logistcs.SharedClass.shproj", "{97D549C4-4711-444C-9D21-FDDA1D76202F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grupo6.Logistics.Customizations", "Grupo6.Logistics.Customizations\Grupo6.Logistics.Customizations.csproj", "{CF8131F7-5DAC-44D1-8240-FA656B8F1B50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grupo6.Logistics.Oportunidade", "Grupo6.Logistics.Oportunidade\Grupo6.Logistics.Oportunidade.csproj", "{333ECBB4-8BA7-4B20-BF29-3B93D3C6A69B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grupo6.Logistics.Produto", "Grupo6.Logistics.Produto\Grupo6.Logistics.Produto.csproj", "{9AD5F361-6DBB-4A96-BA00-9A6931F0C198}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grupo6.Logistics.WarehouseFunction", "Grupo6.Logistics.WarehouseFunction\Grupo6.Logistics.WarehouseFunction.csproj", "{ED5ADBE0-7296-4635-A05F-50B1A289C710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grupo6.Logistics.Oportunidade2", "Grupo6.Logistics.Oportunidade2\Grupo6.Logistics.Oportunidade2.csproj", "{8BB42438-52CA-4C2D-BEEE-39E4602DBD68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{584E61CF-F09B-452A-93FE-BA3A0D72C8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584E61CF-F09B-452A-93FE-BA3A0D72C8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584E61CF-F09B-452A-93FE-BA3A0D72C8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584E61CF-F09B-452A-93FE-BA3A0D72C8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8131F7-5DAC-44D1-8240-FA656B8F1B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8131F7-5DAC-44D1-8240-FA656B8F1B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8131F7-5DAC-44D1-8240-FA656B8F1B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8131F7-5DAC-44D1-8240-FA656B8F1B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{333ECBB4-8BA7-4B20-BF29-3B93D3C6A69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333ECBB4-8BA7-4B20-BF29-3B93D3C6A69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333ECBB4-8BA7-4B20-BF29-3B93D3C6A69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333ECBB4-8BA7-4B20-BF29-3B93D3C6A69B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD5F361-6DBB-4A96-BA00-9A6931F0C198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD5F361-6DBB-4A96-BA00-9A6931F0C198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD5F361-6DBB-4A96-BA00-9A6931F0C198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD5F361-6DBB-4A96-BA00-9A6931F0C198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED5ADBE0-7296-4635-A05F-50B1A289C710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5ADBE0-7296-4635-A05F-50B1A289C710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5ADBE0-7296-4635-A05F-50B1A289C710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5ADBE0-7296-4635-A05F-50B1A289C710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB42438-52CA-4C2D-BEEE-39E4602DBD68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB42438-52CA-4C2D-BEEE-39E4602DBD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB42438-52CA-4C2D-BEEE-39E4602DBD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB42438-52CA-4C2D-BEEE-39E4602DBD68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A49AF09-EFB4-4D97-8719-F2B522DEDADD}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Grupo6.Logistcs.Conta.SharedClass\Grupo6.Logistcs.Conta.SharedClass.projitems*{333ecbb4-8ba7-4b20-bf29-3b93d3c6a69b}*SharedItemsImports = 4
+		Grupo6.Logistcs.Conta.SharedClass\Grupo6.Logistcs.Conta.SharedClass.projitems*{584e61cf-f09b-452a-93fe-ba3a0d72c8b6}*SharedItemsImports = 4
+		Grupo6.Logistcs.Conta.SharedClass\Grupo6.Logistcs.Conta.SharedClass.projitems*{8bb42438-52ca-4c2d-beee-39e4602dbd68}*SharedItemsImports = 4
+		Grupo6.Logistcs.Conta.SharedClass\Grupo6.Logistcs.Conta.SharedClass.projitems*{97d549c4-4711-444c-9d21-fdda1d76202f}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

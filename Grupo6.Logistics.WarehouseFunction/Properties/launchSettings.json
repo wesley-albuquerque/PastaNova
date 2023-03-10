@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Grupo6.Logistics.WarehouseFunction": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7132",
+      "launchBrowser": false
+    }
+  }
+}
